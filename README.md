@@ -9,7 +9,6 @@ Este programa utiliza la forma analítica de la aproximación MSAresuelve las ec
 ## **Características Principales**
 
 * **Cálculo de Funciones de Correlación**: Obtiene la función de correlación directa $c_{ij}(r)$, su transformada de fourier $c_{ij}(k)$ (con la aproximación en serie de Maclaurin para valores de $r$ pequeños) el factor de estructura $S_{ij}(k)$ empleando el método de encapsulación que describe Medina-Noyola y McQuarrie para fluidos cargados (Ec. 10 de https://doi.org/10.1063/1.441426).
-* **Función de Distribución Radial**: Calcula la función de distribución radial $g_{ij}(r)$, que describe cómo varía la densidad en función de la distancia a una partícula de referencia.
 * **Propiedades Termodinámicas**: Incluye el cálculo de la compresibilidad del sistema.
 * **Visualización Interactiva**: Utiliza `matplotlib` para generar gráficos de alta calidad de las funciones calculadas.
 * **Código Modular**: Las funciones principales están contenidas en la librería `MSAlib.py` para una fácil reutilización y mantenimiento.
@@ -23,7 +22,7 @@ Para ejecutar este proyecto, se recomienda crear un entorno virtual y seguir los
 1.  **Clona el repositorio:**
     ```bash
     git clone https://github.com/monomonkey/MSA-Structure-Calculator.git
-    cd tu-repositorio
+    cd MSA-Structure-Calculator
     ```
 
 2.  **Crea y activa un entorno virtual:**
@@ -52,6 +51,6 @@ Para ejecutar este proyecto, se recomienda crear un entorno virtual y seguir los
 
 ## **Resultados de Ejemplo**
 
-El script genera el factor de estructura la función de distribución radial $S_{ij}(k)$ para las interacciones entre las diferentes especies del sistema. La siguiente gráfica muestra una comparación entre los resultados del modelo (líneas continuas) y datos de referencia (puntos) digitalizados de la Fig. 1a del artículo de Horina Ruiz _et al._ (https://doi.org/10.1016/0378-4371(90)90263-R), demostrando la precisión del cálculo.
+El script genera el factor de estructura la función de distribución radial $S_{ij}(k)$ para las interacciones entre las diferentes especies del sistema. La siguiente gráfica muestra una comparación entre los resultados del modelo (líneas continuas) y datos de referencia (puntos) digitalizados de la Fig. 1a del artículo de Honorina Ruiz _et al._ (https://doi.org/10.1016/0378-4371(90)90263-R), demostrando la precisión del cálculo.
 
 ![Comparación g(r)](./Python/comparacionMSA.png)
