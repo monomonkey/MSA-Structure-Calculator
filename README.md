@@ -2,10 +2,6 @@
 
 Este repositorio contiene una implementación en Python para calcular las funciones de correlación directa $c_{ij}(r)$ y el factor de estructura $S_{ij}(k)$ de un sistema de electrolitos utilizando la **Aproximación Esférica Media (MSA, por sus siglas en inglés)**. El código está implementado en un Jupyter Notebook (`MSA.ipynb`) para facilitar la visualización y el análisis interactivo.
 
-## **Descripción**
-
-Este programa utiliza la forma analítica de la aproximación MSAresuelve las ecuaciones de la MSA para obtener las funciones de correlación y, a partir de ellas, propiedades macroscópicas del sistema.
-
 ## **Características Principales**
 
 * **Cálculo de Funciones de Correlación**: Obtiene la función de correlación directa $c_{ij}(r)$, su transformada de fourier $c_{ij}(k)$ (con la aproximación en serie de Maclaurin para valores de $r$ pequeños) el factor de estructura $S_{ij}(k)$ empleando el método de encapsulación que describe Medina-Noyola y McQuarrie para fluidos cargados (Ec. 10 de https://doi.org/10.1063/1.441426). La derivación de esta ecuación se puede consultar en el documento _Derivación de la Ec. 10_.
