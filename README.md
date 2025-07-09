@@ -8,7 +8,7 @@ Este programa utiliza la forma analítica de la aproximación MSAresuelve las ec
 
 ## **Características Principales**
 
-* **Cálculo de Funciones de Correlación**: Obtiene la función de correlación directa $c_{ij}(r)$, su transformada de fourier $c_{ij}(k)$ (con la aproximación en serie de Maclaurin para valores de $r$ pequeños) el factor de estructura $S_{ij}(k)$ empleando el método de encapsulación que describe Medina-Noyola y McQuarrie para fluidos cargados (Ec. 10 de https://doi.org/10.1063/1.441426).
+* **Cálculo de Funciones de Correlación**: Obtiene la función de correlación directa $c_{ij}(r)$, su transformada de fourier $c_{ij}(k)$ (con la aproximación en serie de Maclaurin para valores de $r$ pequeños) el factor de estructura $S_{ij}(k)$ empleando el método de encapsulación que describe Medina-Noyola y McQuarrie para fluidos cargados (Ec. 10 de https://doi.org/10.1063/1.441426). La derivación de esta ecuación se puede consultar en el documento _Derivación de la Ec. 10_.
 * **Propiedades Termodinámicas**: Incluye el cálculo de la compresibilidad del sistema.
 * **Visualización Interactiva**: Utiliza `matplotlib` para generar gráficos de alta calidad de las funciones calculadas.
 * **Código Modular**: Las funciones principales están contenidas en la librería `MSAlib.py` para una fácil reutilización y mantenimiento.
